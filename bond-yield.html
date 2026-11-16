@@ -4,21 +4,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="用例題理解債券票面利率、價格與到期殖利率。">
 <title>債券殖利率 YTM｜FinStudy</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="topbar">
   <div class="container nav">
-    <a class="logo" href="index.html">Fin<span>Study</span></a>
+    <a class="logo" href="/finance-study/">Fin<span>Study</span></a>
     <small>財金學習筆記</small>
   </div>
 </header>
+
 <main class="container">
 <article class="note">
   <nav class="crumb">
-    <a href="index.html">首頁</a> / 財務管理 / 債券殖利率 YTM
+    <a href="/finance-study/">首頁</a> / 財務管理 / 債券殖利率 YTM
   </nav>
   <span class="pill">財務管理</span>
   <h1>債券殖利率 YTM</h1>
@@ -28,12 +28,14 @@
   <p>票面利率（Coupon Rate）決定債券每期支付多少利息；到期殖利率（Yield to Maturity, YTM）則是讓未來現金流折現後等於目前市價的折現率，通常假設持有至到期且依約付款。</p>
 
   <h2>重要公式</h2>
-  <div class="formula">P = Σ[C / (1 + r)ᵗ] + F / (1 + r)ᴺ，t = 1, …, N</div>
+  <div class="formula">
+    P = Σ[C / (1 + r)ᵗ] + F / (1 + r)ᴺ，t = 1, …, N
+  </div>
   <p>P：目前價格；C：每期票息；r：每期到期殖利率；F：到期償還面額；N：剩餘期數。計算時票息與殖利率的期間必須一致。</p>
 
   <h2>簡單例題</h2>
   <div class="example">
-    <p><strong>題目（假設）：</strong>一年後到期、面額 1,000 元、到期時另付 50 元利息，市場要求年報酬率 6%，價格是多少？</p>
+    <p><strong>題目：</strong>一年後到期、面額 1,000 元、到期時另付 50 元利息，市場要求年報酬率 6%，價格是多少？</p>
     <p><strong>步驟：</strong>一年後收到 1,050 元；折現至今天：P = 1,050 / 1.06 ≈ 990.57 元。</p>
     <p><strong>答案：</strong>約 990.57 元，低於面額，屬折價債券。</p>
   </div>
@@ -41,13 +43,14 @@
   <h2>考試重點</h2>
   <ul>
     <li>市場殖利率上升，固定現金流債券的價格下降。</li>
-    <li>票面利率不等於 YTM；折價債券通常 YTM 高於票面利率（相同計息口徑下）。</li>
+    <li>票面利率不等於 YTM；折價債券通常 YTM 高於票面利率。</li>
     <li>半年付息債券要用半年利率和半年期數計算。</li>
   </ul>
 
-  <a class="back" href="index.html">← 返回所有筆記</a>
+  <a class="back" href="https://oliviahuang1101.github.io/finance-study/">← 返回所有筆記</a>
 </article>
 </main>
+
 <footer class="footer">© 2026 FinStudy</footer>
 <script src="main.js" defer></script>
 </body>
